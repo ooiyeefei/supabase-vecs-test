@@ -1,8 +1,8 @@
 from openai import OpenAI
 import vecs
 
-client = OpenAI(api_key='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')
-DB_CONNECTION = "postgresql://postgres.oenhkohxyjgrspjcpiuh:qZBvrX3lx2Aplnma@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
+client = OpenAI(api_key='replace_your_own_credentials')
+DB_CONNECTION = "postgresql://postgres.<user>:<password>@<host>:<port>/<db_name>"
 
 
 dataset = [
