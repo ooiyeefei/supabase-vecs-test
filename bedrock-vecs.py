@@ -4,12 +4,12 @@ import json
 
 client = boto3.client(
     'bedrock-runtime',
-    region_name='us-east-1',
+    region_name='us-west-2',
     aws_access_key_id='{replace_your_own_credentials}',
     aws_secret_access_key='{replace_your_own_credentials}',
     aws_session_token='{replace_your_own_credentials}',
 )
-DB_CONNECTION = "postgresql://postgres.oenhkohxyjgrspjcpiuh:qZBvrX3lx2Aplnma@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
+DB_CONNECTION = "postgresql://postgres.<user>:<password>@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
 
 
 dataset = [
